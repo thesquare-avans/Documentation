@@ -40,6 +40,8 @@ For `ack`s received by the client, the parsed `payload` will use the same format
 - `payloadlInvalid`: The received `payload` is not a `string` of `JSON` data
 - `notIdentified`: This socket hasn't successfully executed a `identify` request
 - `signatureInvalid`: The received message has an invalid signature (could be tampered with)
+- `unknownError`: An error has been handled but no specific response given
+- `unexpectedError`: An error has not been handled properly
 
 # Request methods
 
