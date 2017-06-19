@@ -1,4 +1,4 @@
-# Chat flow
+# Chat protocol specification
 
 To interact with other viewers or streamers, we have the ChatService. The required protocol will be described here
 
