@@ -13,7 +13,7 @@ All messages, both sent and received, will have the same body.
 }
 ```
 
-For `event`s or `ack`s received by the client, the parsed `payload` will use the same format for each request:
+For `ack`s received by the client, the parsed `payload` will use the same format for each request:
 
 ```javascript
 {
@@ -24,6 +24,8 @@ For `event`s or `ack`s received by the client, the parsed `payload` will use the
     // additional data
 }
 ```
+
+`event`s will not follow the same body, because they only send out if it got to that point without errors.
 
 ## Setting up the connection
 
