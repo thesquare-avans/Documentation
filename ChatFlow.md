@@ -38,7 +38,6 @@ For `event`s or `ack`s received by the client, the parsed `payload` will use the
 - `payloadlInvalid`: The received `payload` is not a `string` of `JSON` data
 - `notIdentified`: This socket hasn't successfully executed a `identify` request
 - `signatureInvalid`: The received message has an invalid signature (could be tampered with)
-- `
 
 # Request methods
 
